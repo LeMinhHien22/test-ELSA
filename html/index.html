@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Luyện nói, giao tiếp tiếng anh, Tiếng anh 4.0, Đăng ký khóa học, Elsa">
+    <meta name="author" content="Dương Nguyễn Phú Cường">
+    <meta name="description" content="Luyện nói Tiếng anh cùng ứng dụng Elsa với lộ trình học được cá nhân hóa">
+    <meta property="og:locale" content="vi_VN">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ELSA Speak">
+
+    <title>ELSA Assessment Test</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <script src="../js/action.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="frame">
+            <div class="group-logo">
+                <img id="logo-elsa" src="../assets/svg/frame/logo.svg" alt="logo-elsa" />
+                <img id="character-E" src="../assets/svg/frame/E.svg" alt="character-E" />
+                <img id="character-L" src="../assets/svg/frame/L.svg" alt="character-L" />
+                <img id="character-S" src="../assets/svg/frame/S.svg" alt="character-S" />
+                <img id="character-A" src="../assets/svg/frame/A.svg" alt="character-A" />
+
+            </div>
+        </div>
+    </div>
+    <div class="section-01">
+        <div class="group_10">
+            <p id="text_01">LUYỆN NÓI & GIAO TIẾP TIẾNG ANH THỜI 4.0</p>
+            <p id="text_02">Với ELSA Speak - Ai Cũng Có Thể Nói Tiếng Anh Hay!</p>
+            <button class="button" type="button" onclick="location.href='#form-register'">Đăng ký ngay</button>
+        </div>
+
+        <div class=backgroundSection_01>
+            <div class="circle" id="circle-11"></div>
+            <div class="circle" id="circle-12"></div>
+            <div class="circle" id="circle-13"></div>
+            <div class="circle" id="circle-01"></div>
+            <div class="circle" id="circle-02"></div>
+            <div class="circle" id="circle-03"></div>
+            <div class="circle" id="circle-04"></div>
+            <div class="circle" id="circle-05"></div>
+            <div class="circle" id="circle-06"></div>
+            <div class="circle" id="circle-07">
+                <img class="icon-center" src="../assets/svg/icon-circle-07.svg" alt="icon-circle-07" />
+            </div>
+            <div class="circle" id="circle-08">
+                <img class="icon-center" src="../assets/svg/icon-circle-08.svg" alt="icon-circle-08" />
+            </div>
+            <div class="circle" id="circle-09">
+                <img class="icon-center" src="../assets/svg/icon-circle-09.svg" alt="icon-circle-09" />
+            </div>
+            <div class="circle" id="circle-10">
+                <img class="icon-center" src="../assets/svg/icon-circle-10.svg" alt="icon-circle-10" />
+            </div>
+            <div id="object-01"></div>
+            <div id="object-02"></div>
+
+        </div>
+        <!--<div id="object-03"></div>-->
+        <div id="object-04"></div>
+        <img class="iphone13" src="../assets/image/iphone13-1.png" alt="iphone13" />
+    </div>
+
+
+
+    <div class="section-02">
+        <div class="container-form" id="form-register">
+            <div class="header-form">
+                <p class="header-form-text">CÙNG ỨNG DỤNG ELSA NÓI TIẾNG ANH “THẢ GA”</p>
+            </div>
+            <div class="body-form">
+                <form class="register-form" id="form-format" action="" onsubmit="handle_form_submission()">
+                    <i class="fa fa-user-o fa-2x icon-color" aria-hidden="true"></i><span></span>
+                    <label class="label-input" for="name-user">Họ tên *</label><br />
+                    <input name="name-user" type="text" class="register-input" id="name-user" required><br />
+
+
+                    <i class="fa fa-phone fa-2x icon-color" aria-hidden="true"></i>
+                    <label class="label-input" for="phone-number">Số điện thoại *</label><br />
+                    <input name="phone-number" type="text" class="register-input" id="phone-number" 
+                        pattern="^\+{0,2}([\-\. ])?(\(?\d{0,3}\))?([\-\. ])?\(?\d{0,3}\)?([\-\. ])?\d{3}([\-\. ])?\d{4}" required/><br />
+                    <i class="fa fa-envelope-o fa-2x icon-color" aria-hidden="true"></i>
+                    <label class="label-input" for="email">Email *</label><br />
+                    <input name="email" type="email" class="register-input" id="email" required><br />
+                    <div>
+                        <label class="label-radio" for="choice">
+                            <input type="radio" name="choice" value="Gói học 1 năm" id="choice-1">Gói học 1 năm
+                        </label>
+                        <label class="label-radio" for="choice">
+                            <input type="radio" name="choice" value="Gói trọn đời" id="choice-2">Gói trọn đời
+                        </label>
+                    </div>
+
+                    <br />
+                    <button type="submit" value="" class="submit-btn">GỬI ĐĂNG KÝ</button>
+                </form>
+            </div>
+            
+        </div>
+
+        
+
+    </div>
+    <div class="section-03">
+        <p class="text-1 format-text-03">CÁ NHÂN HÓA LỘ TRÌNH HỌC</p>
+        <p class="text-2 format-text-03">Làm bài kiểm tra đầu vào với ELSA trong 5 phút và bạn sẽ có:</p>
+        <table>
+            <tr>
+                <th><img class="iphone16" src="../assets/image/iphone16.png" alt="iphone16" /></th>
+                <th><img class="iphone17" src="../assets/image/iphone17.png" alt="iphone17" /></th>
+                <th><img class="iphone18" src="../assets/image/iphone18.png" alt="iphone18" /></th>
+                <th><img class="iphone18" src="../assets/image/iphone19.png" alt="iphone19" /></th>
+            </tr>
+            <tr>
+                <th class="text-table format-text-03">
+                    <p class="top">Trí tuệ nhân tạo trả về bạn số điểm <span>"CHUẨN BẢN XỨ"</span></p>
+                </th>
+                <th class="text-table format-text-03">
+                    <p><span>NGAY LẬP TỨC</span>, bạn biết mình phát âm sai ở đâu qua những gam màu trực
+                        quan sinh động.</p>
+                </th>
+                <th class="text-table format-text-03">
+                    <p class="top"><span>CÔNG NGHỆ NHẬN DIỆN</span> giọng nói chuẩn đến từng âm tiết.</p>
+                </th>
+                <th class="text-table format-text-03">
+                    <p>ELSA sẽ <span>LẬP LỘ TRÌNH HỌC CÁ NHÂN HÓA</span> dựa trên các chỉ số bài kiểm tra đầu vào của
+                        bạn.</p>
+                </th>
+            </tr>
+        </table>
+        <div class="submit-3">
+            <button type="button" onclick="location.href='#form-register'" class="submit-btn">ĐĂNG KÝ NGAY</button>
+        </div>
+    </div>
+            
+    <div id="object-05"></div>
+    <div id="object-06"></div>
+
+    <div class="circle" id="circle-14"></div>
+    <div class="circle" id="circle-15"></div>
+    <img class="logo_elsa-2" src="../assets/svg/log-2.svg" alt="logo-elsa-2" />
+    <img class="iphone15" src="../assets/image/iphone15-1.png" alt="iphone15" />
+</body>
+
+</html>

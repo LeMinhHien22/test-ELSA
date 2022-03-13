@@ -1,0 +1,607 @@
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #06BAE8;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0382a1;
+  }
+
+body {
+	background-color: #FFFFFF;
+    margin: 0;
+    overflow-x: hidden;	
+}
+.header {
+    height: 94px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgb(12 36 64 / 10%);
+}
+.frame {
+    width: 100%;
+    height: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group-logo {
+    display: flex;
+}
+
+#logo-elsa{
+    padding-right: 20.59px;
+} 
+#character-E{
+    padding-right: 4.2px;
+}
+#character-L, #character-L, #character-A {
+    padding: 0 4.2px 0 4.2px;
+}
+/*section 1 */
+.section-01 {
+    height: 382px;
+    width: 100%;
+    
+    margin-top: 24px;
+    background: #FFFFFF;
+}
+.backgroundSection_01{
+    position: absolute;
+    width: 370px;
+    height: 421px;
+    left: 911px;
+    top: 146px;
+}
+.group-10 {
+    position: absolute;
+    width: 634px;
+    height: 264px;
+    left: 114px;
+    top: 165px;
+}
+.group_10 #text_01 {
+    position: absolute;
+    width: 634px;
+    height: 112px;
+    left: 114px;
+    top: 165px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+
+    text-align: center;
+    color: #0C2440;
+}
+
+.group_10 #text_02 {
+    position: absolute;
+    width: 587px;
+    height: 33px;
+    left: 137px;
+    top: 293px;
+
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #06BAE8;
+}
+.button{
+    position: absolute;
+    width: 274px;
+    height: 67px;
+    left: 294px;
+    top: 362px;
+    margin-top: 15px;
+
+    background: linear-gradient(80.25deg, #3DFFC8 1.31%, #40F6CF 15.32%, #49DCE1 38.61%, #57B3FF 68.19%);
+    box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+    border-radius: 20px;
+
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+/*backgroundSection_01 - circle*/
+.circle {
+    clip-path: circle(50%);
+    position: absolute;
+    
+}
+#circle-01 {
+    left: 80.37%;
+    right: 10.98%;
+    top: 69.2%;
+    bottom: 23.2%;
+
+    background: linear-gradient(168.26deg, #C57BFF 15.09%, #454BCB 141.04%);
+}
+#circle-02 {
+    left: 12.59%;
+    right: 85.04%;
+    top: 1.97%;
+    bottom: 95.95%;
+
+    background: #DB6BFF;
+    opacity: 0.4;
+}
+#circle-03 {  
+    left: 97.74%;
+    right: 0%;
+    top: 54.57%;
+    bottom: 43.45%;
+    
+    background: #FE8C7A;
+}
+#circle-04 {
+    left: 30.33%;
+    right: 66.17%;
+    top: 1.41%;
+    bottom: 95.52%;
+    
+    background: #ECECEC;
+}
+#circle-05 {
+    left: 83.04%;
+    right: 13.46%;
+    top: 18.5%;
+    bottom: 78.43%;
+    
+    background: #ECECEC;
+}
+#circle-06 {
+    left: 12.09%;
+    right: 84.41%;
+    top: 36.83%;
+    bottom: 60.1%;
+    
+    background: #ECECEC;
+}
+/*circle-07*/
+#circle-07, #circle-08, #circle-09, #circle-10 .icon-center{
+    margin: 0;
+    padding: 0;
+}
+#circle-07 {
+    left: 14.96%;
+    right: 73.22%;
+    top: 1.99%;
+    bottom: 87.64%;
+    
+    background: linear-gradient(180deg, #FFB339 -0.02%, #FF128E 173.23%);
+}
+.icon-center {
+    position: absolute;
+    left: 50%; 
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+
+}
+/*circle-08*/
+#circle-08 {
+    left: 83.53%;
+    right: 1.15%;
+    top: 32.08%;
+    bottom: 54.48%;
+
+    background: linear-gradient(165.78deg, #AC5AFF -6.5%, #7659FF 115.84%);
+}
+
+/*circle-09*/
+#circle-09 {
+    left: 0%;
+    right: 92.05%;
+    top: 42.07%;
+    bottom: 50.96%;
+
+    background: linear-gradient(165.78deg, #FFA1AA -6.56%, #FF5997 115.83%);
+}
+/**/
+#circle-10 {
+    left: 1.16%;
+    right: 87.49%;
+    top: 17.67%;
+    bottom: 72.37%;
+
+    background: linear-gradient(165.78deg, #6EE8FF -7.31%, #3885FF 115.97%);
+}
+
+
+#circle-11 {
+    left: 24.2%;
+    right: 30.13%;
+    top: 18.85%;
+    bottom: 41.08%;
+    border-radius: 50%;
+    border: 36.3042px solid #ECECEC;
+}
+#circle-12 {
+    left: 13.5%;
+    right: 20.01%;
+    top: 9.66%;
+    bottom: 31.99%;
+    border-radius: 50%;
+    border: 2.5947px solid #ECECEC;
+}
+#circle-13 {
+    left: 4.01%;
+    right: 10.12%;
+    top: 0.72%;
+    bottom: 23.94%;
+    border-radius: 50%;
+    border: 2.5286px solid #ECECEC;
+}
+
+
+#object-01{
+    position: absolute;
+    left: 85.13%;
+    right: 12.16%;
+    top: 62%;
+    bottom: 35.63%;
+    
+    border-radius: 20px;
+    height: 6px;
+    width: 14px;
+    background: #6AF9C2;
+    transform: rotate(125deg);
+}
+
+#object-02{
+    position: absolute;
+    left: 18.25%;
+    right: 76.14%;
+    top: 65.94%;
+    bottom: 29.14%;
+
+    border-radius: 30%;
+    background: #FFCF5D;
+    transform: rotate(45deg);
+}
+.iphone13 {
+    position: absolute;
+    width: 302px;
+    height: 459px;
+    left: 944px;
+    top: 68px;
+}
+
+#object-03{
+    position: absolute;     
+    width: 233px;
+    height: 233px;
+    right: -38px;
+    top: 283px;
+    
+    background: linear-gradient(
+        152.47deg, 
+        rgba(255, 243, 92, 0.3) 6.57%, 
+        rgba(255, 121, 91, 0.3) 117.47%);
+    border-radius: 25%;
+    transform: rotate(45deg);
+}
+.object {
+    width: 100vh;
+}
+#object-04 {
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    left: -38px;
+    top: 283px;
+
+    opacity: 0.6;
+
+    background: linear-gradient(152.47deg, #FFF35C 6.57%, #FF795B 117.47%);
+    border-radius: 25%;
+    transform: rotate(45deg);
+}
+
+.section-02 {
+    margin-top: 27px;
+    height: 830px;
+    background: #0C2440;
+    display: flex;
+    align-items: center;
+}
+/*FORM*/
+.container-form {
+    position: absolute;
+    width: 600px;
+    height: 702px;
+    left: 5%;
+    
+    background: #FFFFFF;
+    box-shadow: 5px 5px 8px rgba(12, 36, 64, 0.3);
+    border-radius: 20px;
+}
+.header-form {
+    position: absolute;
+    width: 600px;
+    height: 130px;
+    margin: 0px;
+
+    background: linear-gradient(81.84deg, #49DCE1 1.09%, #39A3FB 96.86%);
+    box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+    border-radius: 15px 15px 0px 0px;
+
+    
+}
+
+.header-form-text{
+    position: absolute;
+    font-family: 'BrownVN';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    /*line-height: 49px;*/
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    padding: 0px 78px 0px 79px;
+    color: #FFFFFF;
+}
+.body-form {
+    position: absolute;
+    margin-top: 130px;
+    padding-top: 30px;
+}
+.icon-color{
+    position: absolute;
+    color: #06BAE8;
+}
+
+.register-form{
+    position: relative;
+    margin-left: 32px;
+    margin-right: 32px;
+
+    background: #FFFFFF;
+    border-radius: 0px 0px 15px 15px;;
+}
+.label-input {
+    position: relative;
+    font-family: 'BrownVN';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 33px;
+
+    padding-left: 50px;
+    display: flex;
+
+    color: #06BAE8;
+    
+}
+.register-input{
+    position: relative;
+    width: 536px;
+    height: 60px;
+    margin-bottom: 16px;
+
+    background: #FFFFFF;
+    border: 2px solid #57B3FF;
+    box-sizing: border-box;
+}
+.form-radio-input {
+    display: inline;
+    line-height: 23px;
+}
+
+.label-radio {
+    position: relative;
+    font-family: 'BrownVN';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 33px;
+
+    padding-left: 50px;
+    
+
+    color: #06BAE8;
+    
+}
+
+.form-radio-input .label-input {
+    display: inline-block;
+}
+
+
+  
+input[type="radio"] {
+    border: 5px solid firebrick;
+    background-color: firebrick !important;
+}
+
+.submit-btn {
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+
+    padding: 10px;
+    width: 530px;
+    height: 74px;
+    margin-top: 5px;
+
+    background: linear-gradient(80.25deg, #3DFFC8 1.31%, #40F6CF 15.32%, #49DCE1 38.61%, #57B3FF 68.19%);
+    box-shadow: 0px 4px 8px rgba(46, 153, 241, 0.5);
+    border-radius: 20px;
+}
+
+.iphone15 {
+    position: absolute;
+    width: 1000px;
+    height: 713px;
+    left: 496px;
+    top: 622px;
+    overflow: hidden;
+
+    filter: drop-shadow(0px 8px 10px rgba(255, 254, 254, 0.1));
+}
+
+.logo_elsa-2{
+    position: absolute;
+    width: 481px;
+    height: 896px;
+
+    left: 59.65%;
+    right: -26.94%;
+    top: 20.66%;
+    bottom: 41.86%;
+    
+}
+
+#object-05 {
+    position: absolute;
+    right: 9.94%;
+    top: 126.11%;
+
+    width: 106px;
+    height: 106px;
+
+    border-radius: 30%;
+    background: linear-gradient(132.48deg, #FFF35C -9.74%, #FF795B 115.77%);
+    transform: rotate(45deg);
+}
+
+#object-06 {
+    position: absolute;
+    right: 0.61%;
+    top: 167.5%;
+
+    background: #FE6B8E;
+
+    border-radius: 30%;
+    width: 114px;
+    height: 114px;
+    transform: rotate(45deg);
+}
+
+#circle-14 {
+    position: absolute;
+    right: 43.36%;
+    top: 172.21%;
+
+    width: 29.68px;
+    height: 29.68px;
+
+    background: linear-gradient(170.52deg, #57FFE1 -2.61%, #439FF3 146.19%);
+}
+
+#circle-15 {
+    position: absolute;
+    right: 32.29%;
+    top: 176.1%;
+    
+    
+    width: 156px;
+    height: 156px;
+    background: linear-gradient(32.47deg, #31BFFF 2.02%, #1CF1DC 114.74%);
+}
+
+.section-03 {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 1448px;
+}
+.format-text-03{
+    color: #233447;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-1 {
+    position: relative;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    
+}
+
+.text-2{
+    display: block;
+    position: relative;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 33px;
+
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+table {
+    display: block;
+    position: relative;
+    
+
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+
+
+tr {
+      width: 25%;
+      height:30px
+}
+
+th {
+    width: 25%;
+    height:30px
+}
+
+.text-table {
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 33px;
+}
+
+.top {
+    margin-top: 0px;
+}
+
+th span {
+    color: #39A3FB;
+    font-weight: 700;
+}
+
+.submit-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.error {
+    height: 20px;
+    color: red;
+}
